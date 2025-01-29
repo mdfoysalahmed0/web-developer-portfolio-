@@ -5,6 +5,11 @@ body {
      font-weight: weight font-style normal font-variation-settings "wdth" 100;
 }
 
+
+.secondary-bg {
+     background-color: #fff8f3;
+}
+
 .text-primary {
      color: #fd6e0a;
 }
@@ -21,14 +26,12 @@ body {
 
 .section-title {
      color: #181818;
-     text-align: center;
      font-size: 35px;
-     font-weight: 700;
+     font-weight: bold;
 }
 
 .section-description {
      color: #757575;
-     text-align: center;
      font-size: 18px;
 }
 
@@ -74,7 +77,6 @@ nav a {
 /* header related styles */
 
 .header {
-     background-color: #fff8f3;
      background-image: url('../Images/header\ bg\ 2.jpg');
      background-repeat: no-repeat;
      background-position: bottom right;
@@ -116,12 +118,24 @@ nav a {
 
 
 /* main section styles */
+main {
+     max-width: 1140px;
+     margin: 0 auto;
+}
 
 /* about section styes */
 
 .about {
-     padding: 130px;
      border-radius: 10px;
-     background: #fff8f3;
-     margin: 130px 0;
+     padding: 130px 150px;
+     text-align: center;
+     margin-top: 130px;
+     margin-top: 130px;
+}
+.about-items{
+     display: flex;
+     justify-content: space-around;
+}
+.item-description{
+     font-weight: 600;
 }
